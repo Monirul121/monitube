@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:#FFFFFF;
+font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --bg-info:red;
+}
+
+/* ==============
+    nav section
+================*/
+.nav-item{
+    width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.logo span{
+    color: darkred;
+}
+.nav-search input{
+    padding:7px;
+    padding-right:70px;
+    font-size: 17px;
+}
+.nav-search button{
+    font-size: 17px;
+    padding: 7px 20px;
+}
+
+#phon-search{
+    color:black;
+    display:none;
+}
+.menu a{
+    font-size: 24px;
+    color: black;
+    margin-right:30px;
+}
+
+/* ==============
+tag-section
+=========== */
+.tag-section {
+    width: 90%;
+    padding:7px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;    
+    margin: auto;
+    margin-top:80px;
+    overflow: hidden;
+    border-top: 1px solid rgba(228, 219, 203, 0.637);
+    border-bottom: 1px solid rgba(228, 219, 203, 0.637);
+}
+
+.tag-section button{
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* =============
+video-section
+=============== */
+.video-section{
+    width: 100%;
+    background-color: #F9F9F9;
+    padding: 30px 10px;
+}
+.video-item{
+    width: calc(33% - 20px);
+    padding: 10px ;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+.video-info{
+    display: flex;
+}
+.video-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.video-txt p{
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.829);
+}

@@ -1,0 +1,13 @@
+@media (max-width:768px) {
+    .nav-search{
+        display: none;
+    }
+    #phon-search {
+        display:inline-block;
+    }
+    .menu a{
+        font-size: 20px;
+        color: black;
+        margin-right:20px;
+    }
+}
