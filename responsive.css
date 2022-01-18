@@ -11,3 +11,21 @@
         margin-right:20px;
     }
 }
+
+@media (max-width:892px) {
+    .video-item{
+        width: calc(50% - 20px);
+        padding: 10px ;
+        margin: 10px;
+        color: black;
+    }
+}
+
+@media (max-width:688px) {
+    .video-item{
+        width: calc(100% - 20px);
+        padding: 10px ;
+        margin: 10px;
+        color: black;
+    }
+}
